@@ -164,7 +164,7 @@ async function iniciarServidor() {
             console.log(`🚀 Servidor rodando em http://localhost:${PORT}`);
             console.log("👉 Mantenha este terminal aberto para usar o Postman");
         });
-    } catch (erro) {
+    } catch (erro) {    
         console.error("❌ Falha ao iniciar o servidor:", erro);
     }
 }
